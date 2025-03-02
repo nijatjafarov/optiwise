@@ -1,0 +1,47 @@
+body {
+    font-family: 'Public Sans' !important;
+    font-size: 20px !important;
+}
+
+nav {
+    height: 120px;
+}
+
+.nav-item {
+    margin: 0 20px !important;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0064ff !important;
+}
+
+#landing-part {
+    height: 75vh;
+    position: relative;
+}
+
+#circle {
+    height: 60vh;
+    width: 60vh;
+    border-radius: 60vh;
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#landing-text {
+    width: 70vh;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
